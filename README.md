@@ -1,4 +1,5 @@
-# 编程总结
+# 备忘录
 
-#### 介绍
-基于VuePress构建的编程知识库，[文档入口](https://dev88.cn)
+## 介绍
+
+人老了，记性差了，还是得记录点东西，入口：[https://docss.cc](https://docss.cc)
