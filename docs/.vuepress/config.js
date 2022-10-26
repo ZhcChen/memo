@@ -1,7 +1,6 @@
 const baiduCode = require('./config/baiduCode.js'); // 百度统计hm码
 const htmlModules = require('./config/htmlModules.js');
 
-
 module.exports = {
 
   theme: 'vdoing', // 使用依赖包主题
@@ -13,7 +12,8 @@ module.exports = {
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,java' }],
-    ['meta', { name: 'theme-color', content: '#11a8cd' }] // 移动浏览器主题颜色
+    ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+    ['script', { src: '/js/baiduCode.js' }] // 百度统计新代码
   ],
 
   // 主题配置
@@ -37,6 +37,11 @@ module.exports = {
               { text: 'Java 类加载机制', link: '/pages/bece42/' }
             ]
           }
+        ]
+      },
+      {
+        text: 'Go', items: [
+          { text: 'Go 语法基础', link: '/pages/1b68b5/' }
         ]
       },
       {
