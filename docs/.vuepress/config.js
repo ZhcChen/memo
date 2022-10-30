@@ -40,50 +40,36 @@ module.exports = {
         ]
       },
       {
-        text: 'Go', items: [
-          { text: 'Go 语法基础', link: '/pages/1b68b5/' }
-        ]
+        text: '速查表', link: '/pages/1b68b5/'
       },
-      {
-        text: '算法', items: [
-          {
-            text: '算法基础', items: [
-              { text: '数据结构', link: '/pages/cef328/' }
-            ]
-          }
-        ]
-      },
-      {
-        text: '开发', items: [
-          {
-            text: '开发 - 开发基础', items: [
-              { text: '常用类库', link: '' }
-            ]
-          },
-          {
-            text: '开发 - 质量保障', items: [
-              { text: '单元测试', link: '' }
-            ]
-          },
-          {
-            text: '开发 - 代码设计', items: [
-              { text: '设计模式', link: '/pages/17da4a/' }
-            ]
-          }
-        ]
-      },
-      {
-        text: '工具', items: [
-          { text: '开发工具', link: '/pages/422210/' },
-          { text: 'Git', link: '/pages/30becd/' },
-          { text: 'Docker', link: '/pages/f2e32e/' }
-        ]
-      },
-      {
-        text: '编程语言', items: [
-          { text: 'Dart', link: '/pages/e71389/' }
-        ]
-      },
+      // {
+      //   text: '算法', items: [
+      //     {
+      //       text: '算法基础', items: [
+      //         { text: '数据结构', link: '/pages/cef328/' }
+      //       ]
+      //     }
+      //   ]
+      // },
+      // {
+      //   text: '编程实践', items: [
+      //     {
+      //       text: '开发 - 开发基础', items: [
+      //         { text: '常用类库', link: '' }
+      //       ]
+      //     },
+      //     {
+      //       text: '开发 - 质量保障', items: [
+      //         { text: '单元测试', link: '' }
+      //       ]
+      //     },
+      //     {
+      //       text: '开发 - 代码设计', items: [
+      //         { text: '设计模式', link: '/pages/17da4a/' }
+      //       ]
+      //     }
+      //   ]
+      // },
       { text: '笔记', link: '/pages/d9e60d/' },
       { text: '资源', link: '/pages/20d224/' }
     ],
@@ -120,7 +106,7 @@ module.exports = {
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
       name: 'ZhcChen', // 必需
-      href: 'https://github.com/Chen1406736605' // 可选的
+      href: 'https://github.com/ZhcChen' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
@@ -133,7 +119,7 @@ module.exports = {
         {
           iconClass: 'icon-github',
           title: 'Github',
-          link: 'https://github.com/Chen1406736605/java-doc.git'
+          link: 'https://github.com/ZhcChen/memo'
         },
         {
           iconClass: 'icon-erji',
