@@ -4,7 +4,7 @@ heroImage: /img/home.gif
 heroText: 备忘录
 tagline: 🚀嘿！我是@ZhcChen，这是我写的一些小抄。
 actionText: 立即进入 →
-actionLink: /pages/7daf0d/
+actionLink: /pages/d9e60d/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 postList: none
 

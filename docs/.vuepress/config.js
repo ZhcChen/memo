@@ -20,28 +20,28 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: 'Java', items: [
-          {
-            text: 'Java 核心知识', items: [
-              { text: 'Java 基础知识', link: '/pages/2950ba/' }
-            ]
-          },
-          {
-            text: 'Java 版本特性', items: [
-              { text: 'Java 8 新特性', link: '/pages/7ea877/' }
-            ]
-          },
-          {
-            text: 'JVM 相关', items: [
-              { text: 'Java 类加载机制', link: '/pages/bece42/' }
-            ]
-          }
-        ]
-      },
-      {
-        text: '速查表', link: '/pages/1b68b5/'
-      },
+      // {
+      //   text: 'Java', items: [
+      //     {
+      //       text: 'Java 核心知识', items: [
+      //         { text: 'Java 基础知识', link: '/pages/2950ba/' }
+      //       ]
+      //     },
+      //     {
+      //       text: 'Java 版本特性', items: [
+      //         { text: 'Java 8 新特性', link: '/pages/7ea877/' }
+      //       ]
+      //     },
+      //     {
+      //       text: 'JVM 相关', items: [
+      //         { text: 'Java 类加载机制', link: '/pages/bece42/' }
+      //       ]
+      //     }
+      //   ]
+      // },
+      // {
+      //   text: '速查表', link: '/pages/1b68b5/'
+      // },
       // {
       //   text: '算法', items: [
       //     {
