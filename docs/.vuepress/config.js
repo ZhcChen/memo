@@ -70,6 +70,12 @@ module.exports = {
       //     }
       //   ]
       // },
+      {
+        text: '工具',
+        items: [
+          { text: 'Docker', link: '/pages/f2e32e/' }
+        ]
+      },
       { text: '笔记', link: '/pages/d9e60d/' },
       { text: '书签', link: '/pages/20d224/' }
     ],
